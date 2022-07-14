@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Assignment: Pizza Parlor
+     Class: CIS130W01
+     Name: Kari Cook
+     Date: 07-11-22 -->
+    <meta charset="utf-8">
+    <title>Order</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Cheech's Pizza</h1>
+    </header>
+<div class="container">
+      <div class="col1">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="order.html" target="blank">Order Online</a></li>
+            <li><a href="menu.html" target="_blank">Menu</a></li>
+            <li><a href="#">Our Location</a></li>
+          </ul>
+        </nav>
+      </div>
+
+  <div class="col2">
+      <form class="form" method="get" action="thankyou.html">
+          <input type="text" name="fname" value="FirstName" required placeholder="First Name" />
+          <input type="text" name="lname" value="LastName" required placeholder="Last Name" />
+          <input type="text" name="Phone" value="417-111-1111" required placeholder="417-111-1111" />
+           <select class="pizzatype" name="pizzatype">
+              <option value="Cheese">Cheese</option>
+              <option value="Pepperoni">Pepperoni</option>
+              <option value="3-meat">3-Meat</option>
+              <option value="Sausage">Sausage</option>
+              <option value="Mushroom">Mushroom</option>
+              <option value="Supreme">Supreme</option>
+           </select>
+            <input type="number" name="number" value="pizza#" min="01" max="10" placeholder="1-10"/>
+            <input class="submit" type="submit" name="submit" value="Submit" />
+   </div>
+    <div class="col3">
+      <article>
+            <p>I love Cheech's Pizza! My favorite pizza is the Mushroom Pizza.
+            Cheech's knows how to make the perfect pizza, everytime. ~ Pizza Lover</p>
+          </article>
+          <article>
+            <p>I ordered online at Cheech's Pizza and I was very satisfied.
+              Great pizza, great price, and wonderful customer service. ~ Papa John</p>
+          </article>
+         <p><a href="#">Facebook Page</a><br>
+         <a href="#">Twitter Page</a></p>
+         <article>
+           <p>Cheech's Pizza's mission is to provide quality service to customers.
+             We want our pizza to be the best quality, best tasting, and better priced.
+             At Cheech's we want to continue to grow and serve our community!</p>
+         </article>
+    </div>
+</div>
+  </body>
+</html>

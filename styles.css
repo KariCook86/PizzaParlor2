@@ -1,0 +1,78 @@
+/*
+  Assignment: Pizza Parlor
+  Name: Kari Cook
+  Date: 07/11/22
+  Filename: styles.css
+*/
+
+body {
+  background-color: darkgreen;
+  background-size: cover;
+}
+
+header {
+  font-size: 2em;
+  text-align: center;
+  background-color: red;
+  background-size: cover;
+  border-radius: 55%;
+  border: 10px dotted darkred;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px lightgrey;
+}
+p {
+  border: darkred 2px solid;
+  font-size: 1.25em;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 8%;
+}
+
+/* Navigation styles */
+
+nav ul{
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-flex;
+  font-size: 1.5em;
+  background-color: salmon;
+  padding: 15px;
+  border: 1px darkred solid;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+/*Form styles*/
+.form {
+margin-left: 20px;
+margin-right: 20px;
+}
+.submit {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px;
+  background-color: lime;
+}
+/* Menu pizza styles*/
+img {
+  max-width: 300px;
+  margin-left: 20px;
+}
+@media only screen {
+
+}
