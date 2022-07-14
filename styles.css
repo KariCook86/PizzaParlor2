@@ -6,7 +6,7 @@
 */
 
 body {
-  background-color: darkgreen;
+  background-color: ivory;
   background-size: cover;
 }
 
@@ -22,7 +22,6 @@ header {
   text-shadow: 2px 2px lightgrey;
 }
 p {
-  border: darkred 2px solid;
   font-size: 1.25em;
   font-weight: bold;
   font-style: italic;
@@ -37,6 +36,7 @@ p {
   justify-content: center;
   border: 3px solid black;
   border-radius: 8%;
+  background-color: green;
 }
 
 /* Navigation styles */
@@ -48,7 +48,7 @@ nav ul{
 nav ul li {
   display: inline-flex;
   font-size: 1.5em;
-  background-color: salmon;
+  background-color: black;
   padding: 15px;
   border: 1px darkred solid;
   text-align: center;
@@ -69,10 +69,22 @@ margin-right: 20px;
   background-color: lime;
 }
 /* Menu pizza styles*/
+div.pizza {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
 img {
   max-width: 300px;
-  margin-left: 20px;
+  margin-bottom: 5px;
 }
-@media only screen {
+/*Media query styles*/
+@media screen and (max-width: 560px){
+  nav ul li {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 35px;
+  }
 
 }
